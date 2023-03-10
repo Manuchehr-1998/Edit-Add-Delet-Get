@@ -1,0 +1,179 @@
+body {
+  background-image: url(../img/desktop+white+lay.jpg);
+  height: 100vh;
+}
+.cont_table {
+  width: 79%;
+  margin: auto;
+  text-align: center;
+
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+table {
+  width: 70%;
+  margin: auto;
+}
+thead {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(241, 204, 204);
+  text-align: center;
+  border: 1px solid white;
+}
+tbody {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(241, 204, 204);
+  text-align: center;
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+.h1 {
+  width: 70%;
+  color: rgba(0, 0, 0, 0.5);
+}
+.colorAdd {
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(0, 0, 0);
+  border: none;
+}
+.add {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(240, 215, 215);
+}
+.btnEdit {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.btnDelete {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(240, 215, 215);
+}
+.btnInfo {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(240, 215, 215);
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The Modal (background)  Edit*/
+.modalEdit {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-contentEdit {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.closeEdit {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeEdit:hover,
+.closeEdit:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* The Modal (background)  Edit*/
+.modalInfo {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 30%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-contentInfo {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  width: 80%; /* Could be more or less, depending on screen size */
+  border: none;
+  color: white;
+}
+
+/* The Close Button */
+.closeInfo {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeInfo:hover,
+.closeInfo:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

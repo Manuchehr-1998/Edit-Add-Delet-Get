@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./all.css" />
+  </head>
+  <body>
+    <div class="cont_table">
+      <div class="h1">
+        <h1>Table Users</h1>
+      </div>
+      <div class="colorAdd">
+        <button class="add">
+          <img src="./icons/add_FILL0_wght400_GRAD0_opsz48.svg" alt="" />add
+          Students
+        </button>
+      </div>
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>+Student</p>
+          <form class="addForm">
+            <input name="name" placeholder="name" />
+            <input name="age" placeholder="age" />
+            <input name="Phone" placeholder="Phone" />
+            <input name="Course" placeholder="Course" />
+            <button class="btnAdd">add</button>
+          </form>
+        </div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Phone</th>
+            <th>Course</th>
+            <th colspan="3">Actions</th>
+          </tr>
+        </thead>
+        <tbody class="tbody"></tbody>
+      </table>
+    </div>
+
+    <!-- The Modal Edit -->
+    <div id="myModalEdit" class="modalEdit">
+      <!-- Modal content Edit -->
+      <div class="modal-contentEdit">
+        <span class="closeEdit">&times;</span>
+        <p>Edit</p>
+        <form class="EditForm">
+          <input name="name" />
+          <input name="age" />
+          <input name="Phone" />
+          <input name="Course" />
+          <button class="btnEdit" type="submit">Edit</button>
+        </form>
+      </div>
+    </div>
+    <!-- The Modal Edit -->
+    <div id="myModalInfo" class="modalInfo">
+      <!-- Modal content Edit -->
+      <div class="modal-contentInfo">
+        <span class="closeInfo">&times;</span>
+        <p>Info Students</p>
+        <form class="InfoForm">
+          <input name="name" />
+          <input name="age" />
+          <input name="Phone" />
+          <input name="Course" />
+          <button class="btnEdit" type="submit">Info</button>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./app/table.js" type="module"></script>
+  </body>
+</html>
